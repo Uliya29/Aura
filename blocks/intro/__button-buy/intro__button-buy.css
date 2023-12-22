@@ -1,0 +1,17 @@
+.intro__button-buy {
+  background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+
+  width: 176px;
+}
+
+.intro__button-buy:hover {
+  background: #46F4DB;
+}
+
+.intro__button-buy:focus {
+  background: #46F4DB;
+}
+
+.intro__button-buy:active {
+  background: #57D272;
+}

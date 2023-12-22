@@ -8,12 +8,29 @@
 </head>
 
 <body class="root">
-  <header class="header">
+  <header class="header root__header root__section">
+    <div class="header__container-left">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип Aura">
+      <nav class="header__nav-links">
+        <ul class="header__list-links">
+          <li><a href="#" class="header__link header__link_active">Авторы</a></li>
+          <li><a href="#" class="header__link">Коллекции</a></li>
+          <li><a href="#" class="header__link">Сервисы</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="header__button-wallet"><a class="header__button-link" href="#">Кошелёк</a></button>
   </header>
 
   <main class="content">
   </main>
-  
+    <section class="intro root__section">
+        <h1 class="intro__title">Площадка для реализации криптостикеров</h1>
+        <div class="intro__buttons-container">
+          <button class="intro__button intro__button-buy">Купить</button>
+          <button class="intro__button intro__button-author">Стать автором</button>
+        </div>
+    </section>
   <footer class="footer">
   </footer>
 </body>

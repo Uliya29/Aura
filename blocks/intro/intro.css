@@ -1,0 +1,37 @@
+.intro {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  overflow: hidden;
+
+  background: #07060B;
+  background-image: url('../../images/stickers_intro.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .intro{
+    background-position: 816px;   
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro{
+    background-position: 736px;   
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro{
+    background-position: 692px;   
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .intro{
+    padding-top: 64px;
+    padding-bottom: 264px;
+    background-position: -100px calc(100% + 510px);    
+  }
+}

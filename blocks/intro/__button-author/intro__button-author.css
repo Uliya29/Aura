@@ -1,0 +1,24 @@
+.intro__button-author {
+  color: #fff;
+  border: 5px solid #46F4DB;
+  background: none;
+  width: 247px;
+}
+
+.intro__button-author:hover {
+  border: none;
+  color: #07060B;
+  background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+}
+
+.intro__button-author:focus {
+  border: none;
+  color: #07060B;
+  background: #46F4DB;
+}
+
+.intro__button-author:active {
+  border: none;
+  color: #07060B;
+  background: #57D272;
+}

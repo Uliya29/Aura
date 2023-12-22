@@ -1,0 +1,24 @@
+.header__button-wallet {
+  border-radius: 77px;
+  background: #07060B;
+  width: 132px;
+  height: 51px;
+}
+
+.header__button-wallet:hover {
+  background: #46F4DB;
+  border: #46F4DB;
+  transition: .2s linear;
+}
+
+.header__button-wallet:focus {
+  outline: none;
+  background: #46F4DB;
+  border: #46F4DB;
+  transition: .2s linear;
+}
+
+.header__button-wallet:active {
+  background: #57D272;
+  border: #57D272;
+}
